@@ -1,6 +1,6 @@
 <h1 align="center">Web Developer Roadmap 2023</h1>
 
-![web roadmap](https://github.com/canopas/web-developer-roadmap-2023/blob/master/images/title_image.png)
+![web roadmap](https://github.com/canopas/web-developer-roadmap-2023/blob/main/images/title_image.png)
 
 Web Developer Roadmap 2023 is a learning path to understand web development, including frontend, backend and cloud(AWS).
 
@@ -88,7 +88,7 @@ Perform following commands on terminal and write down for review
 
 - Static UI 
   
-  - Create HTML project and design static UI given in [reference](https://github.com/canopas/web-developer-roadmap-2023/blob/master/images/static-new.png).
+  - Create HTML project and design static UI given in [reference](https://github.com/canopas/web-developer-roadmap-2023/blob/main/images/static-new.png).
   - Use modern CSS properties like flex or grid to create UI.
 
 ## Practical 3
@@ -104,7 +104,7 @@ Perform following commands on terminal and write down for review
 - Tailwind css
   
   - Configure tailwindcss in project.
-  - Create [given](https://github.com/canopas/web-developer-roadmap-2023/blob/master/images/swiper.webm) responsive UI using swiper and tailwindcss.
+  - Create [given](https://github.com/canopas/web-developer-roadmap-2023/blob/main/images/swiper.gif) responsive UI using swiper and tailwindcss.
   - UI should be responsive till 4k devices.
 
 ## Practical 5
@@ -124,7 +124,7 @@ Perform following commands on terminal and write down for review
     - Play around with different timing functions and animation properties to create visually appealing text effects.
     
   - Loading Spinner: 
-    - Create spinner given in the [link](https://github.com/canopas/web-developer-roadmap-2023/blob/master/images/spinner.webm) 
+    - Create spinner given in the [link](https://github.com/canopas/web-developer-roadmap-2023/blob/main/images/spinner.gif) 
     - Use keyframe animations or CSS transforms to create a effect. 
     - Customize the spinner's appearance and experiment with different animation properties to achieve the desired effect.
   
@@ -223,7 +223,7 @@ Perform following commands on terminal and write down for review
 
 - Ecommerce App authorization and admin apis
   
-  - Review [Ecommerce App](https://github.com/canopas/web-developer-roadmap-2023/blob/master/ecommerce_web_app_backend.md) requirements.
+  - Review [Ecommerce App](https://github.com/canopas/web-developer-roadmap-2023/blob/main/ecommerce_web_app_backend.md) requirements.
     - Use expressJs, typescript and sequlize with postgreSQL
     - Create following REST APIs
       - Admin SignUp/SignIn
@@ -249,7 +249,7 @@ Perform following commands on terminal and write down for review
 ## Practical 17
 
 - Ecommerce Admin panel
-   - Review [Ecommerce App](https://github.com/canopas/web-developer-roadmap-2023/blob/master/ecommerce_web_app_backend.md) requirements.
+   - Review [Ecommerce App](https://github.com/canopas/web-developer-roadmap-2023/blob/main/ecommerce_web_app_backend.md) requirements.
    - Understand lifecycle of vueJS
    - Use tailwind and vite
    - Can use readymade templates
@@ -274,7 +274,7 @@ Perform following commands on terminal and write down for review
 
 - Music APP authorization and admin apis
   
-  - Review [Music APP](https://github.com/canopas/web-developer-roadmap-2023/blob/master/music_app.md) requirements 
+  - Review [Music APP](https://github.com/canopas/web-developer-roadmap-2023/blob/main/music_app.md) requirements 
   - Use JWT for authentication
   - Use concepts of golang like go modules, generics, concurrency etc...
   - Create following REST APIs
@@ -307,7 +307,7 @@ Perform following commands on terminal and write down for review
 - Unit tests and Documentation (continue Practical 9.1)
   
   - Write test for all errors and response
-  - Write unit test for following APIs from [Music APP](https://github.com/canopas/web-developer-roadmap-2023/blob/master/music_app.md) 
+  - Write unit test for following APIs from [Music APP](https://github.com/canopas/web-developer-roadmap-2023/blob/main/music_app.md) 
     - Create playlist
     - Delete track
     - Get playlist and its tracks by playlist id
@@ -326,7 +326,7 @@ Perform following commands on terminal and write down for review
 
 ## Practical 22
 - Music App Admin panel
-   - Review [Music APP](https://github.com/canopas/web-developer-roadmap-2023/blob/master/music_app.md) requirements 
+   - Review [Music APP](https://github.com/canopas/web-developer-roadmap-2023/blob/main/music_app.md) requirements 
    - Use tailwind, vite and typescript
    - Can use readymade templates
    - Use [Golang]() APIs to handle the data
