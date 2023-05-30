@@ -14,6 +14,8 @@ A web development can be divided into four different parts,
 4. Cloud(server)
 
 ## Guidelines
+- This rodmap contains 24 practicals, which can be completed in 6 sprints.
+  
 - Before starting any practical it's important to conduct research and learn the necessary concepts.
 
 - As you progress through the practical exercises, make sure to apply the new knowledge you've gained in subsequent exercises. Try to allocate no more than 5 days to each practical.
@@ -24,7 +26,7 @@ A web development can be divided into four different parts,
 
 - As you work on each practical exercise, move the corresponding ticket from the "To-Do" queue to the "Done" queue to keep track of your progress. This will help you stay focused and motivated as you work through the roadmap.
 
-- Follow the `best practices` and `coding standards` of perticuler languages for implementation.
+- Follow the `best practices` and `coding standards` of perticular languages for implementation.
 
 # Useful references
 
