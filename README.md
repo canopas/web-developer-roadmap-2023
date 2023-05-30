@@ -223,7 +223,7 @@ Perform following commands on terminal and write down for review
 
 - Ecommerce App authorization and admin apis
   
-  - Review [Ecommerce App](https://github.com/canopas/web-developer-roadmap-2023/blob/main/ecommerce_web_app_backend.md) requirements.
+  - Review [Ecommerce App](https://github.com/canopas/web-developer-roadmap-2023/blob/main/ecommerce_web_app.md) requirements.
     - Use expressJs, typescript and sequlize with postgreSQL
     - Create following REST APIs
       - Admin SignUp/SignIn
@@ -249,7 +249,7 @@ Perform following commands on terminal and write down for review
 ## Practical 17
 
 - Ecommerce Admin panel
-   - Review [Ecommerce App](https://github.com/canopas/web-developer-roadmap-2023/blob/main/ecommerce_web_app_backend.md) requirements.
+   - Review [Ecommerce App](https://github.com/canopas/web-developer-roadmap-2023/blob/main/ecommerce_web_app.md) requirements.
    - Understand lifecycle of vueJS
    - Use tailwind and vite
    - Can use readymade templates
