@@ -18,7 +18,7 @@ A web development can be divided into four different parts,
   
 - Before starting any practical it's important to conduct research and learn the necessary concepts.
 
-- As you progress through the practical exercises, make sure to apply the new knowledge you've gained in subsequent exercises. Try to allocate no more than 5 days to each practical.
+- As you progress through the practical exercises, make sure to apply the new knowledge you've gained in subsequent exercises. Try to allocate max 5 days to each practical.
 
 - To keep track of your progress and share your work with your team lead, create a repository on GitLab where you can upload your completed exercises for review.
 
@@ -26,11 +26,11 @@ A web development can be divided into four different parts,
 
 - As you work on each practical exercise, move the corresponding ticket from the "To-Do" queue to the "Done" queue to keep track of your progress. This will help you stay focused and motivated as you work through the roadmap.
 
-- Follow the `best practices` and `coding standards` of perticular languages for implementation.
+- Follow the `best practices` and `coding standards` of particular languages for implementation.
 
 # Useful references
 
-These references provides basic knowledge, that is necessary before diving into web development and serve as starting points for beginners. If you have prior knowledge and experience in web development, you can skip this section. 
+These references provides basic knowledge, that is necessary before diving into web development and serve as starting points for beginners. If you have prior knowledge and experience in web development, feel free to skip this section. 
 
 - [Command line interface - CLI](https://ubuntu.com/tutorials/command-line-for-beginners#4-creating-folders-and-files)
 - [Version control system - VCS](https://about.gitlab.com/topics/version-control/) and [Git](https://about.gitlab.com/topics/version-control/what-is-git-version-control/)
@@ -60,7 +60,7 @@ These references provides basic knowledge, that is necessary before diving into 
 
 ## Practical 1
 
-Perform following commands on terminal and write down for review
+Perform following commands on terminal and write down for review,
 
 - Basic commands
   - List all files with details in directory
@@ -74,6 +74,10 @@ Perform following commands on terminal and write down for review
   - Write and save any file from terminal
 
 - Version Control
+  - Add files to git
+  - Check git remotes
+  - Fetch remote branches
+  - Delete branch
   - Check git status of repository
   - Commit new/updated files into a git repository
   - Push in a git repository
@@ -186,15 +190,15 @@ Perform following commands on terminal and write down for review
 
 ## Practical 10
 - Random Quote Generator
+  - Use [random quotes API](https://api.whatdoestrumpthink.com/api/v1/quotes/random) and get random quotes.
   - Display random technical quotes each time when the user refreshes the page or clicks a button. 
-  - Store an array of quotes and use JavaScript to randomly select and display one of them.
 
 ## Practical 11
 - Interactive Form Validation
   - Create a form containing fields like name, email, phone, and password with placeholder.
   - Implement form validation using JavaScript. 
   - Validate input fields for required values, email formats, password strength, and other criteria. - Display error messages for invalid inputs in red color.
-  - If all validations will be pass, submit form using AJAX to previously created registartion code in PHP and show popup with success message.
+  - If all validations pass, submit button click should  insert the data into table (without refreshing the page - Use AJAX) and show popup with success message
 
 # TypeScript
 
@@ -216,17 +220,17 @@ Perform following commands on terminal and write down for review
 
 ## Practical 14
 
-- Real-time Chat Application
+- Real-time group chat application
   
-  -  Build a real-time chat application using Node.js, Javascript, and a library like Socket.IO. 
+  -  Build a real-time group chat application using Node.js, Javascript, and a library like Socket.IO. 
   -  Allow users to join chat rooms, send messages, and receive messages in real-time.
 
 ## Practical 15
 
 - Ecommerce App authorization and admin apis
+- **Implementation specifications:** `express.js`, `typescript` and `sequelize` with postgreSQL
   
   - Review [Ecommerce App](https://github.com/canopas/web-developer-roadmap-2023/blob/main/ecommerce_web_app.md) requirements.
-    - Use expressJs, typescript and sequlize with postgreSQL
     - Create following REST APIs
       - Admin SignUp/SignIn
       - User SignUp/SignIn -- Send mail to the users after signUP from API only
@@ -237,7 +241,8 @@ Perform following commands on terminal and write down for review
 
 ## Practical 16 
 
-- Ecommerce App user apis (continue Practical 8.2)
+- Ecommerce App user apis (continue Practical 15)
+- **Implementation specifications:** `express.js`, `typescript` and `sequelize` with postgreSQL
   
   - Create following User REST APIs -- Only authenticated users can access these apis
     - FindAll/FindOne categories, sub categories, products
@@ -251,33 +256,34 @@ Perform following commands on terminal and write down for review
 ## Practical 17
 
 - Ecommerce Admin panel
+- **Implementation specifications:** `tailwind`, `vite`, `vuex or pinia
+  `
    - Review [Ecommerce App](https://github.com/canopas/web-developer-roadmap-2023/blob/main/ecommerce_web_app.md) requirements.
-   - Understand lifecycle of vueJS
-   - Use tailwind and vite
-   - Can use readymade templates
-   - Use [nodeJS]() APIs to handle the data
-   - Use vuex or pinia store to manage data
-   - Create registration/Login forms with all validations
-   - Admin should able to create, update, delete and view categories, subcategories and product
-   - Admin should able to see all users
-   - Implement logout functionality
+   - Can use readymade templates.
+   - Use [nodeJS](https://github.com/canopas/web-developer-roadmap-2023#7-nodejs) APIs to handle the data
+   - Create registration/Login forms with all validations.
+   - Admin should able to create, update, delete and view categories, subcategories and product.
+   - Admin should able to see all users.
+   - Implement logout functionality.
 
 ## Practical 18
 - Ecommerce website
-  - Create website where user can see list of products
-  - User should be able to filter products by categories and subcategories
-  - Create registration/Login forms with all validations
+- **Implementation specifications:** `tailwind`, `vite`, `vuex or pinia`
+  
+  - Create website where user can see list of products.
+  - User should be able to filter products by categories and subcategories.
+  - Create registration/Login forms with all validations.
   - LoggedIn users can fav/unfav products. 
-  - Implement logout functionality
+  - Implement logout functionality.
 
 # Golang
 
 ## Practical 19
 
 - Music APP authorization and admin apis
+- **Implementation specifications:** `JWT` for authentication, `sqlx or gorm`, `gin`
   
   - Review [Music APP](https://github.com/canopas/web-developer-roadmap-2023/blob/main/music_app.md) requirements 
-  - Use JWT for authentication
   - Use concepts of golang like go modules, generics, concurrency etc...
   - Create following REST APIs
     - Admin Register/Login
@@ -293,7 +299,8 @@ Perform following commands on terminal and write down for review
 
 ## Practical 20
 
-- Music APP user apis (continue Practical 9.1)
+- Music APP user apis (continue Practical 19)
+- **Implementation specifications:** `JWT` for authentication, `sqlx or gorm`, `gin`
 
   - Create following User REST APIs -- Only authenticated users can access these apis
     - Fetch all albums
@@ -306,9 +313,9 @@ Perform following commands on terminal and write down for review
 
 ## Practical 21
 
-- Unit tests and Documentation (continue Practical 9.1)
+- Unit tests and Documentation (continue Practical 20)
   
-  - Write test for all errors and response
+  - Write test for all errors and success response
   - Write unit test for following APIs from [Music APP](https://github.com/canopas/web-developer-roadmap-2023/blob/main/music_app.md) 
     - Create playlist
     - Delete track
@@ -328,18 +335,20 @@ Perform following commands on terminal and write down for review
 
 ## Practical 22
 - Music App Admin panel
+- **Implementation specifications:** `tailwind`, `vite` and `typescript`
+  
    - Review [Music APP](https://github.com/canopas/web-developer-roadmap-2023/blob/main/music_app.md) requirements 
-   - Use tailwind, vite and typescript
    - Can use readymade templates
-   - Use [Golang]() APIs to handle the data
+   - Use [Golang](https://github.com/canopas/web-developer-roadmap-2023#9-golang) APIs to handle the data
    - Create a admin panel which will cover all the admin APIs.
 
 ## Practical 23
 -  Website
+- **Implementation specifications:** `tailwind`, `vite` and `typescript`
+
    - Create webapp which will cover all User APIs.
    - Can refer [spotify](https://open.spotify.com/) UI.
-   - Use tailwind, vite and typescript
-   - Allow users to favourite/unfavourite tracks if they have loggedIn otherwise redirect to login page on click on fav/unfav
+   - Allow users to favourite/unfavourite tracks if they have loggedIn otherwise redirect to login page on click on favourite/unfavourite
 
 # Docker
 
@@ -358,3 +367,5 @@ Perform following commands
 - Remove nginx container and image
 - Show logs of docker container
 - Show latest 100 logs of docker container
+- Setup docker swarm
+- Create docker container with the help of docker service
