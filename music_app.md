@@ -1,19 +1,19 @@
-# Music App
+# Music App
 
 ## Description
 
-- It is spotify like app, which contains albums, tracks and playlists. 
-- Each album should have artist.
-- Only authenticated users can able to favourite/unfavourite track.
+- It is a Spotify-like app, which contains albums, tracks, and playlists.
+- Each album should have an artist.
+- Only authenticated users can able to favorite/unfavourite tracks.
 - Admin panel used to add and manage data by admins
-- Website provide a interactive UI for user to use our music app
+- Website provides an interactive UI for the user to use our music app
 
-### Application will have two type of users :
+### Application will have two types of users :
 
-- Admin - Should have Read/Write access
-- User - Should have Read access only, except Favourite/Unfavourite functionality
+- Admin - Should have Read/Write access
+- User - Should have Read access only, except Favourite/Unfavourite functionality
 
-**Note:** Admin is also a user. Admin should have all access same as user. Additionally they can modify the content.
+**Note:** Admin is also a user. Admin should have all access the same as the user. Additionally, they can modify the content.
 
 ## Models
 
@@ -55,7 +55,7 @@
     - created_at
     - updated_at
 
-* Favourite-tracks 
+* Favourite-tracks
     - id
     - track_id
     - user_id
