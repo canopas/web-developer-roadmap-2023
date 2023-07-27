@@ -20,22 +20,9 @@ Web development can be divided into four different parts,
 - As you progress through the practical exercises, make sure to apply the new knowledge you've gained in subsequent exercises.
 - Follow the `best practices` and `coding standards` of particular languages for implementation.
 
-# Useful references
-
-These references provide basic knowledge, that is necessary before diving into web development and serve as starting points for beginners. If you have prior knowledge and experience in web development, feel free to skip this section.
-
-- [Command line interface - CLI](https://ubuntu.com/tutorials/command-line-for-beginners#4-creating-folders-and-files)
-- [Version control system - VCS](https://about.gitlab.com/topics/version-control/) and [Git](https://about.gitlab.com/topics/version-control/what-is-git-version-control/)
-- [Backend vs Frontend](https://www.geeksforgeeks.org/frontend-vs-backend/)
-- [Document object model - DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)
-- [REST APIs](https://blog.postman.com/rest-api-examples/)
-- [JSON](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON)
-- [Coding standards](https://www.geeksforgeeks.org/coding-standards-and-guidelines/)
-- [Docker](https://www.ibm.com/topics/docker)
-- [Cloud](https://www.cloudflare.com/en-gb/learning/cloud/what-is-the-cloud/) and [AWS](https://www.guru99.com/what-is-aws.html)
-
 # Table of contents
 
+- [Useful references](https://github.com/canopas/web-developer-roadmap-2023#useful-references)
 - [Basic commands and Version Control](https://github.com/canopas/web-developer-roadmap-2023#basic-commands-and-version-control)
   - [Practical 1 - Basic commands](https://github.com/canopas/web-developer-roadmap-2023#practical-1)
 - [HTML/CSS](https://github.com/canopas/web-developer-roadmap-2023#htmlcss)
@@ -71,6 +58,20 @@ These references provide basic knowledge, that is necessary before diving into w
 - [ReactJS](https://github.com/canopas/web-developer-roadmap-2023#reactjs)
   - [Practical 23 - Music APP Admin panel](https://github.com/canopas/web-developer-roadmap-2023#practical-23)
   - [Practical 24 -  Music App Website](https://github.com/canopas/web-developer-roadmap-2023#practical-24)
+ 
+# Useful references
+
+These references provide basic knowledge, that is necessary before diving into web development and serve as starting points for beginners. If you have prior knowledge and experience in web development, feel free to skip this section.
+
+- [Command line interface - CLI](https://ubuntu.com/tutorials/command-line-for-beginners#4-creating-folders-and-files)
+- [Version control system - VCS](https://about.gitlab.com/topics/version-control/) and [Git](https://about.gitlab.com/topics/version-control/what-is-git-version-control/)
+- [Backend vs Frontend](https://www.geeksforgeeks.org/frontend-vs-backend/)
+- [Document object model - DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)
+- [REST APIs](https://blog.postman.com/rest-api-examples/)
+- [JSON](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON)
+- [Coding standards](https://www.geeksforgeeks.org/coding-standards-and-guidelines/)
+- [Docker](https://www.ibm.com/topics/docker)
+- [Cloud](https://www.cloudflare.com/en-gb/learning/cloud/what-is-the-cloud/) and [AWS](https://www.guru99.com/what-is-aws.html)
 
 # Basic commands and Version Control
 
