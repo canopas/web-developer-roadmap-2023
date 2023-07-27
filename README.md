@@ -36,17 +36,41 @@ These references provide basic knowledge, that is necessary before diving into w
 
 # Table of contents
 
-- [Basic commands and Version Control](https://github.com/canopas/web-developer-roadmap-2023#1-basic-commands-and-version-control)
-- [HTML/CSS](https://github.com/canopas/web-developer-roadmap-2023#2-htmlcss)
-- [Database](https://github.com/canopas/web-developer-roadmap-2023#3-database)
-- [PHP](https://github.com/canopas/web-developer-roadmap-2023#4-php)
-- [Javascript](https://github.com/canopas/web-developer-roadmap-2023#5-javascript)
-- [Typescript](https://github.com/canopas/web-developer-roadmap-2023#6-typescript)
-- [NodeJS](https://github.com/canopas/web-developer-roadmap-2023#7-nodejs)
-- [VueJS](https://github.com/canopas/web-developer-roadmap-2023#8-vuejs)
-- [Golang](https://github.com/canopas/web-developer-roadmap-2023#9-golang)
-- [ReactJS](https://github.com/canopas/web-developer-roadmap-2023#10-reactjs)
-- [Docker](https://github.com/canopas/web-developer-roadmap-2023#11-docker)
+- [Basic commands and Version Control](https://github.com/canopas/web-developer-roadmap-2023#basic-commands-and-version-control)
+  - [Practical 1 - Basic commands](https://github.com/canopas/web-developer-roadmap-2023#practical-1)
+- [HTML/CSS](https://github.com/canopas/web-developer-roadmap-2023#htmlcss)
+  - [Practical 2 - Static UI](https://github.com/canopas/web-developer-roadmap-2023#practical-2)
+  - [Practical 3 - Responsive UI](https://github.com/canopas/web-developer-roadmap-2023#practical-3)
+  - [Practical 4 - Tailwind CSS](https://github.com/canopas/web-developer-roadmap-2023#practical-4)
+  - [Practical 5 - Animations](https://github.com/canopas/web-developer-roadmap-2023#practical-5)
+- [Docker](https://github.com/canopas/web-developer-roadmap-2023#docker)
+  - [Practical 6 - Docker commands](https://github.com/canopas/web-developer-roadmap-2023#practical-6)
+- [Database](https://github.com/canopas/web-developer-roadmap-2023#database)
+  - [Practical 7 - Mysql](https://github.com/canopas/web-developer-roadmap-2023#practical-7)
+  - [Practical 8 - MongoDB](https://github.com/canopas/web-developer-roadmap-2023#practical-8)
+- [PHP](https://github.com/canopas/web-developer-roadmap-2023#php)
+  - [Practical 9 - Calculator](https://github.com/canopas/web-developer-roadmap-2023#practical-9)
+  - [Practical 10 - Blog application](https://github.com/canopas/web-developer-roadmap-2023#practical-10)
+- [Javascript](https://github.com/canopas/web-developer-roadmap-2023#javascript)
+  - [Practical 11 - Random Quote Generator](https://github.com/canopas/web-developer-roadmap-2023#practical-11)
+  - [Practical 12 - Interactive Form Validation](https://github.com/canopas/web-developer-roadmap-2023#practical-12)
+- [Typescript](https://github.com/canopas/web-developer-roadmap-2023#typescript)
+  - [Practical 13 - BMI Calculator](https://github.com/canopas/web-developer-roadmap-2023#practical-13)
+  - [Practical 14 - File Uploader](https://github.com/canopas/web-developer-roadmap-2023#practical-14)
+- [NodeJS](https://github.com/canopas/web-developer-roadmap-2023#nodejs)
+  - [Practical 15 - Real-time group chat application](https://github.com/canopas/web-developer-roadmap-2023#practical-15)
+  - [Practical 16 - E-commerce Auth APIs](https://github.com/canopas/web-developer-roadmap-2023#practical-16)
+  - [Practical 17 - E-commerce Product APIs](https://github.com/canopas/web-developer-roadmap-2023#practical-17)
+- [VueJS](https://github.com/canopas/web-developer-roadmap-2023#vuejs)
+  - [Practical 18 - E-commerce Admin panel](https://github.com/canopas/web-developer-roadmap-2023#practical-18)
+  - [Practical 19 - E-commerce Website](https://github.com/canopas/web-developer-roadmap-2023#practical-19)
+- [Golang](https://github.com/canopas/web-developer-roadmap-2023#golang)
+  - [Practical 20 - Music APP Auth and Admin APIs](https://github.com/canopas/web-developer-roadmap-2023#practical-20)
+  - [Practical 21 - Music APP User apis](https://github.com/canopas/web-developer-roadmap-2023#practical-21)
+  - [Practical 22 - Unit tests and Documentation](https://github.com/canopas/web-developer-roadmap-2023#practical-22)
+- [ReactJS](https://github.com/canopas/web-developer-roadmap-2023#reactjs)
+  - [Practical 23 - Music APP Admin panel](https://github.com/canopas/web-developer-roadmap-2023#practical-23)
+  - [Practical 24 -  Music App Website](https://github.com/canopas/web-developer-roadmap-2023#practical-24)
 
 # Basic commands and Version Control
 
@@ -130,9 +154,29 @@ Perform the following commands on the terminal and write them down for review,
     - Utilize CSS transitions, transforms, or animations to add interactive and visually appealing effects when the user hovers over the elements.
     - Customize the circle's appearance and experiment with different animation properties to achieve the desired effect.
 
-# Database
+# Docker
 
 ## Practical 6
+
+Perform following commands
+
+- Pull the latest mysql and nginx image
+- List the docker images
+- List the docker volumes
+- Run the nginx container on 8000 port
+- Run mysql container on 3307 port with volume
+- List the currently running containers
+- List the file with its details inside the nginx container
+- Stop nginx container
+- Remove nginx container and image
+- Show logs of the docker container
+- Show the latest 100 logs of the docker container
+- Setup docker swarm
+- Create a docker container with the help of the docker service
+
+# Database
+
+## Practical 7
 
 - Perform the following queries in **MySQL**
 
@@ -146,7 +190,7 @@ Perform the following commands on the terminal and write them down for review,
   - Find a student who has the highest presence
   - Get all student's and teacher's first_name, last_name, full_name, interest, standard, subject and total absence.
 
-## Practical 7
+## Practical 8
 
 - Perform following queries in **MongoDB** (Can use [MongoDBPlayground](https://mongoplayground.net/) to peform queries)
   
@@ -158,7 +202,7 @@ Perform the following commands on the terminal and write them down for review,
 
 # PHP
 
-## Practical 8
+## Practical 9
 
 - Simple calculator
   - Create a calculator that can perform basic arithmetic operations like addition, subtraction, multiplication, and division
@@ -167,7 +211,7 @@ Perform the following commands on the terminal and write them down for review,
   - Add buttons for arithmetic operations like addition, subtraction, multiplication, and division
   - Add submit button and print the result in the label
 
-## Practical 9
+## Practical 10
 - Blog application
     - It should have two roles
       1. Admin
@@ -180,12 +224,12 @@ Perform the following commands on the terminal and write them down for review,
 
 # JavaScript
 
-## Practical 10
+## Practical 11
 - Random Quote Generator
   - Use [random quotes API](https://api.whatdoestrumpthink.com/api/v1/quotes/random) and get random quotes.
   - Display random technical quotes each time when the user refreshes the page or clicks a button.
 
-## Practical 11
+## Practical 12
 - Interactive Form Validation
   - Create a form containing fields like name, email, phone, and password with a placeholder.
   - Implement form validation using JavaScript.
@@ -194,13 +238,13 @@ Perform the following commands on the terminal and write them down for review,
 
 # TypeScript
 
-## Practical 12
+## Practical 13
 - BMI Calculator
   - Build a BMI (Body Mass Index) calculator that takes a person's weight and height as input and calculates their BMI.
   - Add appropriate validations for input fields.
   - Use TypeScript to define the data types for the inputs and outputs and provide a meaningful interpretation of the result.
 
-## Practical 13
+## Practical 14
 - File Uploader
   - Implement a file uploader that allows users to upload files to a server.
   - Allow only `pdf` and `doc` files.
@@ -210,14 +254,14 @@ Perform the following commands on the terminal and write them down for review,
 
 # NodeJS
 
-## Practical 14
+## Practical 15
 
 - Real-time group chat application
   
   - Build a real-time group chat application using Node.js, Javascript, and a library like Socket.IO.
   - Allow users to join chat rooms, send messages, and receive messages in real time.
 
-## Practical 15
+## Practical 16
 
 - E-commerce App authorization and admin APIs
 - **Implementation specifications:** `express.js`, `typescript`, and `sequelize` with PostgreSQL
@@ -231,7 +275,7 @@ Perform the following commands on the terminal and write them down for review,
       - Create/Update/Delete subcategories
       - Create/Update/Delete products
 
-## Practical 16
+## Practical 17
 
 - Ecommerce App user apis (continue Practical 15)
 - **Implementation specifications:** `express.js`, `typescript`, and `sequelize` with PostgreSQL
@@ -245,7 +289,7 @@ Perform the following commands on the terminal and write them down for review,
   
 # VueJS
 
-## Practical 17
+## Practical 18
 
 - E-commerce Admin panel
   
@@ -259,7 +303,7 @@ Perform the following commands on the terminal and write them down for review,
   - Admin should be able to see all users.
   - Implement logout functionality.
 
-## Practical 18
+## Practical 19
 - E-commerce website
 - **Implementation specifications:** `tailwind`, `vite`, `vuex or pinia`
   
@@ -271,7 +315,7 @@ Perform the following commands on the terminal and write them down for review,
 
 # Golang
 
-## Practical 19
+## Practical 20
 
 - Music APP authorization and admin APIs
 - **Implementation specifications:** `JWT` for authentication, `sqlx or gorm`, `gin`
@@ -290,7 +334,7 @@ Perform the following commands on the terminal and write them down for review,
       - Add/Remove tracks to/from the playlist
       - Get all users
 
-## Practical 20
+## Practical 21
 
 - Music APP user apis (continue Practical 19)
 - **Implementation specifications:** `JWT` for authentication, `sqlx or gorm`, `gin`
@@ -304,7 +348,7 @@ Perform the following commands on the terminal and write them down for review,
     - Favourite/unfavourite tracks
     - Retrieve favorite/unfavourite tracks of own
 
-## Practical 21
+## Practical 22
 
 - Unit tests and Documentation (continue Practical 20)
   
@@ -326,7 +370,7 @@ Perform the following commands on the terminal and write them down for review,
 
 # ReactJS
 
-## Practical 22
+## Practical 23
 - Music App Admin panel
 - **Implementation specifications:** `tailwind`, `vite`, and `typescript`
   
@@ -335,30 +379,10 @@ Perform the following commands on the terminal and write them down for review,
   - Use [Golang](https://github.com/canopas/web-developer-roadmap-2023#9-golang) APIs to handle the data
   - Create an admin panel that will cover all the admin APIs.
 
-## Practical 23
-- Website
+## Practical 24
+- Music App Website
 - **Implementation specifications:** `tailwind`, `vite`, and `typescript`
 
   - Create a web app that will cover all User APIs.
   - Can refer [spotify](https://open.spotify.com/) UI.
   - Allow users to favorite/unfavourite tracks if they have logged-in otherwise redirect to the login page on click on favorite/unfavourite
-
-# Docker
-
-## Practical 24
-
-Perform following commands
-
-- Pull the latest mysql and nginx image
-- List the docker images
-- List the docker volumes
-- Run the nginx container on 8000 port
-- Run mysql container on 3307 port with volume
-- List the currently running containers
-- List the file with its details inside the nginx container
-- Stop nginx container
-- Remove nginx container and image
-- Show logs of the docker container
-- Show the latest 100 logs of the docker container
-- Setup docker swarm
-- Create a docker container with the help of the docker service
