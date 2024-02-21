@@ -278,7 +278,7 @@ Perform following commands
 
 ## Practical 17
 
-- Ecommerce App user apis (continue Practical 15)
+- Ecommerce App user apis (continue Practical 16)
 - **Implementation specifications:** `express.js`, `typescript`, and `sequelize` with PostgreSQL
   
   - Create the following User REST APIs - Only authenticated users can access these APIs
@@ -337,7 +337,7 @@ Perform following commands
 
 ## Practical 21
 
-- Music APP user apis (continue Practical 19)
+- Music APP user apis (continue Practical 20)
 - **Implementation specifications:** `JWT` for authentication, `sqlx or gorm`, `gin`
 
   - Create the following User REST APIs - Only authenticated users can access these APIs
@@ -351,7 +351,7 @@ Perform following commands
 
 ## Practical 22
 
-- Unit tests and Documentation (continue Practical 20)
+- Unit tests and Documentation (continue Practical 21)
   
   - Write a test for all errors and successful response
   - Write unit test for the following APIs from [Music APP](https://github.com/canopas/web-developer-roadmap-2023/blob/main/music_app.md)
