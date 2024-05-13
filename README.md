@@ -66,6 +66,7 @@ These references provide basic knowledge, that is necessary before diving into w
 - [Command line interface - CLI](https://ubuntu.com/tutorials/command-line-for-beginners#4-creating-folders-and-files)
 - [Version control system - VCS](https://about.gitlab.com/topics/version-control/) and [Git](https://about.gitlab.com/topics/version-control/what-is-git-version-control/)
 - [Backend vs Frontend](https://www.geeksforgeeks.org/frontend-vs-backend/)
+- [Web Development vs Full Stack Development](https://www.scaler.com/blog/difference-between-web-development-and-full-stack-development/)
 - [Document object model - DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)
 - [REST APIs](https://blog.postman.com/rest-api-examples/)
 - [JSON](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON)
