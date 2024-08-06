@@ -103,11 +103,6 @@ Perform the following commands on the terminal and write them down for review,
   - Merge branch into another
   - See commit history
   - Write a command to clone [this](https://github.com/canopas/web-developer-roadmap-2023) repo
-  - Stash changes on the current branch, switch to another branch to apply a hotfix, and then apply the stashed changes back.
-  - The below command should be applied to all following practicals.
-    - create two branches for every practicals (i.e for practical 1, it can be `PR-1-staging` and `PR-1-feature`)
-    - Add intial commit to `PR-1-staging` and minimum 3 commit to `PR-1-feature`.
-    - At the end of practical, `staging` branch should have 2 commits (Initial + Combined from `feature`) with same changes as of `feature` branch.
 
 # HTML/CSS
 
