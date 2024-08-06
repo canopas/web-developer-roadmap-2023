@@ -88,7 +88,7 @@ Perform the following commands on the terminal and write them down for review,
   - View previously executed commands history
   - Linux command to install/uninstall PHP
   - Linux command to start/stop mysql service
-  - Write and save any file from terminal
+  - Write and save any file from the terminal
 
 - Version Control
   - Add files to git
@@ -102,8 +102,12 @@ Perform the following commands on the terminal and write them down for review,
   - Checkout new branch
   - Merge branch into another
   - See commit history
-  - Rebase and Squash
   - Write a command to clone [this](https://github.com/canopas/web-developer-roadmap-2023) repo
+  - Stash changes on the current branch, switch to another branch to apply a hotfix, and then apply the stashed changes back.
+  - The below command should be applied to all following practicals.
+    - create two branches for every practicals (i.e for practical 1, it can be `PR-1-staging` and `PR-1-feature`)
+    - Add intial commit to `PR-1-staging` and minimum 3 commit to `PR-1-feature`.
+    - At the end of practical, `staging` branch should have 2 commits (Initial + Combined from `feature`) with same changes as of `feature` branch.
 
 # HTML/CSS
 
@@ -201,36 +205,14 @@ Perform following commands
   - Find the total attadence of students who have not interest in sport but interest in reading.
   - Count the total students with a percentage above 80
 
-# PHP
-
-## Practical 9
-
-- Simple calculator
-  - Create a calculator that can perform basic arithmetic operations like addition, subtraction, multiplication, and division
-  - Add two input fields that allow only numeric values
-    - Show error if the value is not numeric
-  - Add buttons for arithmetic operations like addition, subtraction, multiplication, and division
-  - Add submit button and print the result in the label
-
-## Practical 10
-- Blog application
-    - It should have two roles
-      1. Admin
-      2. User
-    - Implement Register and login/logout functionality for admin
-    - Create add/edit/delete posts for admin. It should not be accessible by users.
-      - post fields - title, description, created_at, author, category, image
-    - Allow admin to disable/enable users to see posts.
-    - User can only view the post in descending order.
-
 # JavaScript
 
-## Practical 11
+## Practical 9
 - Random Quote Generator
   - Use [random quotes API](https://api.whatdoestrumpthink.com/api/v1/quotes/random) and get random quotes.
   - Display random technical quotes each time when the user refreshes the page or clicks a button.
 
-## Practical 12
+## Practical 10
 - Interactive Form Validation
   - Create a form containing fields like name, email, phone, and password with a placeholder.
   - Implement form validation using JavaScript.
@@ -239,13 +221,13 @@ Perform following commands
 
 # TypeScript
 
-## Practical 13
+## Practical 11
 - BMI Calculator
   - Build a BMI (Body Mass Index) calculator that takes a person's weight and height as input and calculates their BMI.
   - Add appropriate validations for input fields.
   - Use TypeScript to define the data types for the inputs and outputs and provide a meaningful interpretation of the result.
 
-## Practical 14
+## Practical 12
 - File Uploader
   - Implement a file uploader that allows users to upload files to a server.
   - Allow only `pdf` and `doc` files.
@@ -255,14 +237,24 @@ Perform following commands
 
 # NodeJS
 
-## Practical 15
+## Practical 13
 
 - Real-time group chat application
-  
-  - Build a real-time group chat application using Node.js, Javascript, and a library like Socket.IO.
+  - Build a real-time group chat application using Node.js, TypeScript, and a library like Socket.IO.
   - Allow users to join chat rooms, send messages, and receive messages in real time.
 
-## Practical 16
+## Practical 14
+- Quiz Application with Firebase Realtime Database
+  - The application flow will be,
+    - Authenticate users with firebase authentication
+    - Create quiz
+      - Allow authenticated users to create quiz category wise(Like science, entertainment etc...) with MCQ and their correct answers.
+    - Play quiz
+      - Allow authenticated users to play quiz.
+      - They can play quiz based on selected category. 
+      - Display scores instantly as they answer questions.
+
+## Practical 15
 
 - E-commerce App authorization and admin APIs
 - **Implementation specifications:** `express.js`, `typescript`, and `sequelize` with PostgreSQL
@@ -276,9 +268,9 @@ Perform following commands
       - Create/Update/Delete subcategories
       - Create/Update/Delete products
 
-## Practical 17
+## Practical 16
 
-- Ecommerce App user apis (continue Practical 16)
+- Ecommerce App user apis (continue Practical 15)
 - **Implementation specifications:** `express.js`, `typescript`, and `sequelize` with PostgreSQL
   
   - Create the following User REST APIs - Only authenticated users can access these APIs
@@ -290,7 +282,7 @@ Perform following commands
   
 # VueJS
 
-## Practical 18
+## Practical 17
 
 - E-commerce Admin panel
   
@@ -304,7 +296,7 @@ Perform following commands
   - Admin should be able to see all users.
   - Implement logout functionality.
 
-## Practical 19
+## Practical 18
 - E-commerce website
 - **Implementation specifications:** `tailwind`, `vite`, `vuex or pinia`
   
@@ -316,7 +308,7 @@ Perform following commands
 
 # Golang
 
-## Practical 20
+## Practical 19
 
 - Music APP authorization and admin APIs
 - **Implementation specifications:** `JWT` for authentication, `sqlx or gorm`, `gin`
@@ -335,9 +327,9 @@ Perform following commands
       - Add/Remove tracks to/from the playlist
       - Get all users
 
-## Practical 21
+## Practical 20
 
-- Music APP user apis (continue Practical 20)
+- Music APP user apis (continue Practical 19)
 - **Implementation specifications:** `JWT` for authentication, `sqlx or gorm`, `gin`
 
   - Create the following User REST APIs - Only authenticated users can access these APIs
@@ -349,9 +341,9 @@ Perform following commands
     - Favourite/unfavourite tracks
     - Retrieve favorite/unfavourite tracks of own
 
-## Practical 22
+## Practical 21
 
-- Unit tests and Documentation (continue Practical 21)
+- Unit tests and Documentation (continue Practical 20)
   
   - Write a test for all errors and successful response
   - Write unit test for the following APIs from [Music APP](https://github.com/canopas/web-developer-roadmap-2023/blob/main/music_app.md)
@@ -371,7 +363,7 @@ Perform following commands
 
 # ReactJS
 
-## Practical 23
+## Practical 22
 - Music App Admin panel
 - **Implementation specifications:** `tailwind`, `vite`, and `typescript`
   
@@ -380,7 +372,7 @@ Perform following commands
   - Use [Golang](https://github.com/canopas/web-developer-roadmap-2023#9-golang) APIs to handle the data
   - Create an admin panel that will cover all the admin APIs.
 
-## Practical 24
+## Practical 23
 - Music App Website
 - **Implementation specifications:** `tailwind`, `vite`, and `typescript`
 
