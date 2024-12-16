@@ -265,8 +265,8 @@ Perform following commands
 
 - Ecommerce App user apis (continue Practical 15)
 - **Implementation specifications:** `express.js`, `typescript`, and `sequelize` with PostgreSQL
-  
-  - Create the following User REST APIs - Only authenticated users can access these APIs
+  - Add authentication of APIs where it is required 
+  - Create the following User REST APIs 
     - FindAll/FindOne categories, subcategories, products
     - Get products of a given category/subcategory
     - Search product from given string with name, price
@@ -296,7 +296,7 @@ Perform following commands
   - Create a website where users can see a list of products.
   - User should be able to filter products by categories and subcategories.
   - Create registration/Login forms with all validations.
-  - LoggedIn users can favorite/unfavourite products.
+  - LoggedIn users can choose their favorite/unfavourite products.
   - Implement logout functionality.
 
 # Golang
@@ -324,13 +324,13 @@ Perform following commands
 
 - Music APP user apis (continue Practical 19)
 - **Implementation specifications:** `JWT` for authentication, `sqlx or gorm`, `gin`
-
-  - Create the following User REST APIs - Only authenticated users can access these APIs
+  - Add authentication of APIs where it is required 
+  - Create the following User REST APIs 
     - Fetch all albums
     - Fetch all tracks
     - Fetch all tracks by album Id
     - Fetch all playlists
-    - Get the playlist and its tracks by playlist id
+    - Get the playlist and its tracks by playlist ID
     - Favourite/unfavourite tracks
     - Retrieve favorite/unfavourite tracks of own
 
@@ -342,7 +342,7 @@ Perform following commands
   - Write unit test for the following APIs from [Music APP](https://github.com/canopas/web-developer-roadmap-2023/blob/main/music_app.md)
     - Create playlist
     - Delete track
-    - Get the playlist and its tracks by playlist id
+    - Get the playlist and its tracks by playlist ID
     - Favourite/unfavourite tracks
   - Write API documentation for the given APIs.
     - Should contain the following fields
@@ -371,4 +371,4 @@ Perform following commands
 
   - Create a web app that will cover all User APIs.
   - Can refer [spotify](https://open.spotify.com/) UI.
-  - Allow users to favorite/unfavourite tracks if they have logged-in otherwise redirect to the login page on click on favorite/unfavourite
+  - Allow users to favorite/unfavourite tracks if they have logged in otherwise redirect to the login page while click on favorite/unfavourite
